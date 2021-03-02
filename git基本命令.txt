@@ -1,0 +1,34 @@
+git config --global user.name? 用户命
+
+git config --global user.password? 密码
+
+git config --list 查看当前的配置信息
+
+
+以下是自己总结的一些简单的操作
+
+git init (初始化仓库)
+
+git show 提交版本号(展示残仓库的状态)
+
+git add (增加到暂存区)
+
+git commit -m "信息" (提交到仓库)
+
+git status (查看仓库状态)
+
+git pull (将远程仓库的提交拉到本地)
+
+git push (将本地的提交推送到远程仓库)
+
+git remote add "别名" 仓库地址 (连接远程仓库的地址)?
+
+git remote -v (查看当前所连接的仓库的地址)
+
+git add . (将所有文件提交到暂存区)
+
+git commit . -m "此次修改的信息" (将所有文件提交到本地仓库)
+
+git clone 仓库地址
+
+git push?? ?"仓库地址别名" master (推送到远程仓库)
